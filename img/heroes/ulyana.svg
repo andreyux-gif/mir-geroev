@@ -1,0 +1,126 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 720" width="400" height="720">
+  <title>Ульяна</title>
+  <defs>
+    <!-- Радуга в волосах: резкие полосы, общая для задних прядей и чёлки -->
+    <linearGradient id="rainbow" gradientUnits="userSpaceOnUse" x1="0" y1="70" x2="0" y2="560">
+      <stop offset="0" stop-color="#FF5A6E"/><stop offset=".15" stop-color="#FF5A6E"/>
+      <stop offset=".15" stop-color="#FF9A3D"/><stop offset=".29" stop-color="#FF9A3D"/>
+      <stop offset=".29" stop-color="#FFD84A"/><stop offset=".43" stop-color="#FFD84A"/>
+      <stop offset=".43" stop-color="#6FD36A"/><stop offset=".58" stop-color="#6FD36A"/>
+      <stop offset=".58" stop-color="#4FB4FF"/><stop offset=".73" stop-color="#4FB4FF"/>
+      <stop offset=".73" stop-color="#B07CFF"/><stop offset=".87" stop-color="#B07CFF"/>
+      <stop offset=".87" stop-color="#FF7FC4"/><stop offset="1" stop-color="#FF7FC4"/>
+    </linearGradient>
+    <linearGradient id="hairShade" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#000" stop-opacity=".16"/>
+      <stop offset=".35" stop-color="#000" stop-opacity="0"/>
+      <stop offset=".7" stop-color="#fff" stop-opacity=".12"/>
+      <stop offset="1" stop-color="#000" stop-opacity=".14"/>
+    </linearGradient>
+    <linearGradient id="dress" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#7EC8FF"/>
+      <stop offset=".45" stop-color="#A9DCFF"/>
+      <stop offset="1" stop-color="#76BDF5"/>
+    </linearGradient>
+    <radialGradient id="skin" cx=".42" cy=".38" r=".7">
+      <stop offset="0" stop-color="#FFF4EC"/>
+      <stop offset="1" stop-color="#FFDCC8"/>
+    </radialGradient>
+    <radialGradient id="blush" cx=".5" cy=".5" r=".5">
+      <stop offset="0" stop-color="#FF7E9A" stop-opacity=".75"/>
+      <stop offset="1" stop-color="#FF7E9A" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="iris" cx=".5" cy=".62" r=".6">
+      <stop offset="0" stop-color="#B9F28A"/>
+      <stop offset=".55" stop-color="#4FC24A"/>
+      <stop offset="1" stop-color="#1F7A3A"/>
+    </radialGradient>
+    <radialGradient id="lens" cx=".35" cy=".3" r=".8">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#E8F3FF"/>
+    </radialGradient>
+    <clipPath id="dressClip"><path d="M146 320 Q200 310 254 320 L256 590 Q256 618 228 618 L172 618 Q144 618 144 590 Z"/></clipPath>
+    <g id="cloud">
+      <path d="M-26 8 a12 12 0 0 1 4-22 a16 16 0 0 1 28-6 a12 12 0 0 1 20 10 a10 10 0 0 1 0 18 z" fill="#FFFFFF" stroke="#5A9AD6" stroke-width="2.5" stroke-linejoin="round"/>
+    </g>
+  </defs>
+
+  <!-- Тень на земле -->
+  <ellipse cx="200" cy="694" rx="96" ry="14" fill="#2B2233" opacity=".14"/>
+
+  <!-- Волосы сзади -->
+  <path d="M200 68 C116 68 68 130 68 214 C68 300 76 392 80 452 C82 492 88 524 100 548 C106 536 112 528 120 524 C122 544 130 560 144 566 C148 552 154 544 162 540 L238 540 C246 544 252 552 256 566 C270 560 278 544 280 524 C288 528 294 536 300 548 C312 524 318 492 320 452 C324 392 332 300 332 214 C332 130 284 68 200 68 Z"
+        fill="url(#rainbow)" stroke="#2B2233" stroke-width="5" stroke-linejoin="round"/>
+  <path d="M200 68 C116 68 68 130 68 214 C68 300 76 392 80 452 C82 492 88 524 100 548 C106 536 112 528 120 524 C122 544 130 560 144 566 C148 552 154 544 162 540 L238 540 C246 544 252 552 256 566 C270 560 278 544 280 524 C288 528 294 536 300 548 C312 524 318 492 320 452 C324 392 332 300 332 214 C332 130 284 68 200 68 Z"
+        fill="url(#hairShade)"/>
+
+  <g fill="url(#rainbow)" stroke="#2B2233" stroke-width="5" stroke-linejoin="round">
+    <path d="M72 300 C58 300 50 308 46 318 C58 314 68 316 74 324 Z"/>
+    <path d="M328 300 C342 300 350 308 354 318 C342 314 332 316 326 324 Z"/>
+  </g>
+
+  <!-- Крылышки -->
+  <g fill="#2B2233" stroke="#2B2233" stroke-width="3" stroke-linejoin="round">
+    <path transform="translate(134 382) scale(1.55) translate(-134 -382)" d="M132 372 C110 352 84 344 58 350 C72 356 80 362 84 368 C70 368 58 374 50 386 C66 384 78 386 86 390 C78 398 74 408 74 420 C92 404 112 394 134 392 Z"/>
+    <path transform="translate(266 382) scale(1.55) translate(-266 -382)" d="M268 372 C290 352 316 344 342 350 C328 356 320 362 316 368 C330 368 342 374 350 386 C334 384 322 386 314 390 C322 398 326 408 326 420 C308 404 288 394 266 392 Z"/>
+  </g>
+  <g fill="none" stroke="#6E6578" stroke-width="2" stroke-linecap="round" opacity=".7">
+    <path transform="translate(134 382) scale(1.55) translate(-134 -382)" d="M118 366 C100 360 86 360 74 364"/><path transform="translate(266 382) scale(1.55) translate(-266 -382)" d="M282 366 C300 360 314 360 326 364"/>
+  </g>
+
+  <!-- Ноги -->
+  <rect x="164" y="590" width="28" height="98" rx="12" fill="#FFF4EC" stroke="#2B2233" stroke-width="5"/>
+  <rect x="208" y="590" width="28" height="98" rx="12" fill="#FFF4EC" stroke="#2B2233" stroke-width="5"/>
+  <path d="M160 676 h36 a6 6 0 0 1 0 14 h-30 a8 8 0 0 1 -6 -14 z" fill="#B07CFF" stroke="#2B2233" stroke-width="4"/>
+  <path d="M204 676 h36 a6 6 0 0 1 0 14 h-30 a8 8 0 0 1 -6 -14 z" fill="#B07CFF" stroke="#2B2233" stroke-width="4"/>
+
+  <!-- Руки -->
+  <rect x="112" y="340" width="32" height="222" rx="16" fill="url(#skin)" stroke="#2B2233" stroke-width="5"/>
+  <rect x="256" y="340" width="32" height="222" rx="16" fill="url(#skin)" stroke="#2B2233" stroke-width="5"/>
+
+  <!-- Платье с облаками -->
+  <path d="M146 320 Q200 310 254 320 L256 590 Q256 618 228 618 L172 618 Q144 618 144 590 Z" fill="url(#dress)"/>
+  <g clip-path="url(#dressClip)">
+    <use href="#cloud" transform="translate(178 368)"/>
+    <use href="#cloud" transform="translate(236 420) scale(.85)"/>
+    <use href="#cloud" transform="translate(166 470) scale(.9)"/>
+    <use href="#cloud" transform="translate(232 526)"/>
+    <use href="#cloud" transform="translate(172 586) scale(.85)"/>
+    <path d="M150 330 C150 420 152 520 158 610" stroke="#FFFFFF" stroke-width="7" stroke-linecap="round" opacity=".45" fill="none"/>
+  </g>
+  <path d="M146 320 Q200 310 254 320 L256 590 Q256 618 228 618 L172 618 Q144 618 144 590 Z" fill="none" stroke="#2B2233" stroke-width="5" stroke-linejoin="round"/>
+
+  <!-- Голова -->
+  <circle cx="200" cy="212" r="112" fill="url(#skin)" stroke="#2B2233" stroke-width="5"/>
+
+  <!-- Чёлка -->
+  <path d="M88 212 C86 136 134 96 200 96 C266 96 314 136 312 212 C302 186 290 170 274 162 C270 176 262 186 250 192 C246 176 238 164 226 156 C220 170 210 180 196 184 C194 170 188 160 178 152 C166 166 150 172 132 172 C114 180 98 194 88 212 Z"
+        fill="url(#rainbow)" stroke="#2B2233" stroke-width="5" stroke-linejoin="round"/>
+  <path d="M130 130 C150 112 176 104 204 104" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" fill="none" opacity=".55"/>
+
+  <!-- Хохолок -->
+  <path d="M206 98 C194 78 198 54 222 42 C216 58 218 74 232 82 C224 92 214 96 206 98 Z" fill="#FF5A6E" stroke="#2B2233" stroke-width="5" stroke-linejoin="round"/>
+
+  <!-- Румянец -->
+  <ellipse cx="124" cy="284" rx="26" ry="15" fill="url(#blush)"/>
+  <ellipse cx="276" cy="284" rx="26" ry="15" fill="url(#blush)"/>
+
+  <!-- Большие круглые глаза -->
+  <g>
+    <circle cx="147" cy="228" r="46" fill="url(#lens)"/>
+    <circle cx="253" cy="228" r="46" fill="url(#lens)"/>
+    <circle cx="150" cy="234" r="35" fill="url(#iris)" stroke="#2B2233" stroke-width="3"/>
+    <circle cx="250" cy="234" r="35" fill="url(#iris)" stroke="#2B2233" stroke-width="3"/>
+    <circle cx="150" cy="237" r="21" fill="#173A22"/>
+    <circle cx="250" cy="237" r="21" fill="#173A22"/>
+    <circle cx="162" cy="221" r="10" fill="#FFFFFF"/>
+    <circle cx="262" cy="221" r="10" fill="#FFFFFF"/>
+    <circle cx="139" cy="250" r="5" fill="#FFFFFF"/>
+    <circle cx="239" cy="250" r="5" fill="#FFFFFF"/>
+    <circle cx="147" cy="228" r="46" fill="none" stroke="#2B2233" stroke-width="7"/>
+    <circle cx="253" cy="228" r="46" fill="none" stroke="#2B2233" stroke-width="7"/>
+  </g>
+
+  <!-- Ротик «о» -->
+  <ellipse cx="200" cy="294" rx="7" ry="9" fill="#5A2633" stroke="#2B2233" stroke-width="3"/>
+</svg>

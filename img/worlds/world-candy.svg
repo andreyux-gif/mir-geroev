@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 724 484" width="724" height="484">
+  <title>Мир Кенди: с конфетами</title>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFD6E6"/>
+      <stop offset="1" stop-color="#FFF2F7"/>
+    </linearGradient>
+    <!-- Конфета в фантике; цвет — fill у use -->
+    <g id="candy" stroke="#2B2233" stroke-width="4" stroke-linejoin="round">
+      <path d="M-22 0 L-42 -14 L-38 0 L-42 14 Z"/>
+      <path d="M22 0 L42 -14 L38 0 L42 14 Z"/>
+      <ellipse cx="0" cy="0" rx="24" ry="16"/>
+      <path d="M-8 -14 Q-2 0 -8 14 M8 -14 Q14 0 8 14" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" opacity=".8"/>
+    </g>
+    <!-- Леденец на палочке -->
+    <g id="lolly" stroke="#2B2233" stroke-linejoin="round">
+      <rect x="-5" y="0" width="10" height="110" rx="5" fill="#FFFFFF" stroke-width="4"/>
+      <circle cx="0" cy="-6" r="36" stroke-width="5"/>
+      <circle cx="0" cy="-6" r="22" fill="none" stroke="#FFFFFF" stroke-width="5" opacity=".9"/>
+      <circle cx="0" cy="-6" r="9" fill="none" stroke="#FFFFFF" stroke-width="5" opacity=".9"/>
+    </g>
+  </defs>
+
+  <rect width="724" height="484" fill="url(#sky)"/>
+  <path d="M500 156 a18 18 0 0 1 8 -32 a24 24 0 0 1 42 -10 a20 20 0 0 1 34 12 a16 16 0 0 1 2 30 z" fill="#FFFFFF" stroke="#2B2233" stroke-width="5" stroke-linejoin="round"/>
+
+  <!-- Поляна -->
+  <path d="M0 336 Q362 276 724 336 L724 484 L0 484 Z" fill="#BFEFDC" stroke="#2B2233" stroke-width="5" stroke-linejoin="round"/>
+
+  <!-- Немного конфет -->
+  <use href="#lolly" transform="translate(132 232)" fill="#FF8FB8"/>
+  <use href="#lolly" transform="translate(616 250) scale(.8)" fill="#8FD3FF"/>
+  <use href="#candy" transform="translate(262 178) rotate(-18)" fill="#FFD84A"/>
+  <use href="#candy" transform="translate(470 196) rotate(14) scale(.85)" fill="#B48CF0"/>
+  <use href="#candy" transform="translate(540 352) rotate(-8) scale(.8)" fill="#FF7E9A"/>
+</svg>

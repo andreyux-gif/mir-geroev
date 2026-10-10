@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 724 484" width="724" height="484">
+  <title>Мир Йоши: с жёлтым небом</title>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFD93D"/>
+      <stop offset="1" stop-color="#FFF4B0"/>
+    </linearGradient>
+    <linearGradient id="rainbow" gradientUnits="userSpaceOnUse" x1="0" y1="-4" x2="0" y2="84">
+      <stop offset="0" stop-color="#FF5A6E"/><stop offset=".2" stop-color="#FF5A6E"/>
+      <stop offset=".2" stop-color="#FFD84A"/><stop offset=".4" stop-color="#FFD84A"/>
+      <stop offset=".4" stop-color="#6FD36A"/><stop offset=".6" stop-color="#6FD36A"/>
+      <stop offset=".6" stop-color="#4FB4FF"/><stop offset=".8" stop-color="#4FB4FF"/>
+      <stop offset=".8" stop-color="#B07CFF"/><stop offset="1" stop-color="#B07CFF"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="724" height="484" fill="url(#sky)"/>
+  <circle cx="120" cy="120" r="44" fill="#FFF8D6" stroke="#2B2233" stroke-width="5"/>
+
+  <!-- Надпись Yoshi в небе, «от руки» -->
+  <g transform="translate(440 112) scale(2.2)" fill="none" stroke="#2B2233" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M0 0 L8 10 L16 0 M8 10 L8 22"/>
+    <ellipse cx="25" cy="16" rx="6" ry="6.5"/>
+    <path d="M44 11 q-5 -3 -8 1 q-1 4 5 5 q6 2 3 6 q-3 3 -9 0"/>
+    <path d="M51 0 L51 22 M51 14 q5 -6 10 0 L61 22"/>
+    <path d="M68 11 L68 22"/>
+    <circle cx="68" cy="4" r="1" fill="#2B2233"/>
+  </g>
+
+  <!-- Поле -->
+  <path d="M0 330 Q300 290 724 336 L724 484 L0 484 Z" fill="#CDEB9C" stroke="#2B2233" stroke-width="5" stroke-linejoin="round"/>
+  <path d="M0 420 Q330 380 724 424 L724 484 L0 484 Z" fill="#B5DE84" stroke="#2B2233" stroke-width="5" stroke-linejoin="round"/>
+
+  <!-- Вдалеке — Ульяна с крылышками -->
+  <g transform="translate(560 214) scale(1.5)" stroke="#2B2233" stroke-linejoin="round">
+    <path d="M-14 46 C-30 36 -42 38 -48 46 C-40 46 -36 50 -34 54 C-28 50 -20 50 -14 54 Z" fill="#2B2233" stroke-width="3"/>
+    <path d="M14 46 C30 36 42 38 48 46 C40 46 36 50 34 54 C28 50 20 50 14 54 Z" fill="#2B2233" stroke-width="3"/>
+    <path d="M-22 22 C-24 50 -22 70 -18 82 L18 82 C22 70 24 50 22 22 Z" fill="url(#rainbow)" stroke-width="3.5"/>
+    <rect x="-11" y="38" width="22" height="46" rx="7" fill="#A9DCFF" stroke-width="3.5"/>
+    <path d="M-6 84 V96 M6 84 V96" stroke-width="3.5" stroke-linecap="round"/>
+    <circle cx="0" cy="22" r="20" fill="#FFE8DA" stroke-width="3.5"/>
+    <path d="M-20 22 C-22 4 -10 -4 0 -4 C10 -4 22 4 20 22 C14 14 8 12 0 14 C-8 12 -14 14 -20 22 Z" fill="url(#rainbow)" stroke-width="3.5"/>
+    <circle cx="-7" cy="24" r="5.5" fill="#4FC24A" stroke-width="2.5"/>
+    <circle cx="7" cy="24" r="5.5" fill="#4FC24A" stroke-width="2.5"/>
+  </g>
+</svg>

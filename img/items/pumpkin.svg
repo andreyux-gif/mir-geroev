@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100"><title>Тыква</title>
+<g stroke="#2B2233" stroke-width="4.5" stroke-linejoin="round">
+<path d="M50 24 q4 -12 14 -14" fill="none"/>
+<ellipse cx="34" cy="58" rx="20" ry="28" fill="#FF9A3D"/><ellipse cx="66" cy="58" rx="20" ry="28" fill="#FF9A3D"/><ellipse cx="50" cy="58" rx="18" ry="30" fill="#FFB060"/></g>
+<path d="M38 52 l6 -6 l6 6 z M56 52 l6 -6 l6 6 z M38 68 q12 8 24 0" fill="#2B2233" stroke="#2B2233" stroke-width="2.5" stroke-linejoin="round"/>
+</svg>

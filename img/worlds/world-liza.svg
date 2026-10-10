@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 724 484" width="724" height="484">
+  <title>Мир Лизы: с чаем и печеньками</title>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFE3C7"/>
+      <stop offset="1" stop-color="#FFF6EC"/>
+    </linearGradient>
+    <!-- Печенька с шоколадной крошкой -->
+    <g id="cookie">
+      <circle cx="0" cy="0" r="26" fill="#E8B26A" stroke="#2B2233" stroke-width="4"/>
+      <g fill="#6E4128">
+        <ellipse cx="-9" cy="-8" rx="4" ry="3"/>
+        <ellipse cx="8" cy="-11" rx="3.5" ry="3"/>
+        <ellipse cx="11" cy="6" rx="4" ry="3"/>
+        <ellipse cx="-6" cy="10" rx="3.5" ry="3"/>
+        <ellipse cx="1" cy="0" rx="3" ry="2.5"/>
+      </g>
+    </g>
+  </defs>
+
+  <rect width="724" height="484" fill="url(#sky)"/>
+
+  <!-- Поляна -->
+  <path d="M0 340 Q362 284 724 340 L724 484 L0 484 Z" fill="#CDEBB0" stroke="#2B2233" stroke-width="5" stroke-linejoin="round"/>
+
+  <!-- Чашка чая с паром -->
+  <g stroke="#2B2233" stroke-linejoin="round">
+    <g fill="none" stroke="#FFFFFF" stroke-width="7" stroke-linecap="round" opacity=".95">
+      <path d="M124 214 q-12 -16 0 -32 q12 -16 0 -32"/>
+      <path d="M154 206 q-12 -16 0 -32 q12 -16 0 -32"/>
+      <path d="M184 214 q-12 -16 0 -32 q12 -16 0 -32"/>
+    </g>
+    <ellipse cx="154" cy="322" rx="78" ry="16" fill="#FFFFFF" stroke-width="5"/>
+    <path d="M216 252 c34 -2 38 42 4 46" fill="none" stroke-width="10" stroke-linecap="round"/>
+    <path d="M216 252 c34 -2 38 42 4 46" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round"/>
+    <path d="M94 236 h120 q-4 74 -60 80 q-56 -6 -60 -80 z" fill="#FFFFFF" stroke-width="5"/>
+    <path d="M100 262 h108" stroke="#FF8FA8" stroke-width="7"/>
+    <ellipse cx="154" cy="236" rx="60" ry="11" fill="#C98A4E" stroke-width="5"/>
+  </g>
+
+  <!-- Маленький чайник -->
+  <g transform="translate(606 290) scale(.85)" stroke="#2B2233" stroke-width="5" stroke-linejoin="round">
+    <path d="M-52 -2 C-82 -10 -94 -40 -92 -54 C-76 -40 -64 -30 -46 -26" fill="#8FD3FF"/>
+    <path d="M50 -24 c34 -4 38 44 4 48" fill="none" stroke-width="10" stroke-linecap="round"/>
+    <ellipse cx="0" cy="0" rx="56" ry="46" fill="#8FD3FF"/>
+    <path d="M-52 4 h104" stroke="#FFFFFF" stroke-width="6" opacity=".7"/>
+    <path d="M-30 -40 q30 -14 60 0 z" fill="#8FD3FF"/>
+    <circle cx="0" cy="-54" r="9" fill="#FF8FA8"/>
+  </g>
+
+  <!-- Немного печенек -->
+  <use href="#cookie" transform="translate(286 184) rotate(-12)"/>
+  <use href="#cookie" transform="translate(470 168) rotate(20) scale(.85)"/>
+  <use href="#cookie" transform="translate(500 352) scale(.8)"/>
+</svg>

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 724 484" width="724" height="484">
+  <title>Мир ещё не придуман</title>
+  <rect width="724" height="484" fill="#E9F1FA"/>
+  <path d="M0 360 Q362 300 724 360 L724 484 L0 484 Z" fill="#E1EBD6" stroke="#2B2233" stroke-width="5" stroke-linejoin="round" stroke-dasharray="14 10"/>
+  <g fill="none" stroke="#8C8298" stroke-width="12" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M150 170 C150 130 210 126 214 166 C218 196 182 202 182 236"/>
+    <path d="M516 170 C516 130 576 126 580 166 C584 196 548 202 548 236"/>
+  </g>
+  <circle cx="182" cy="272" r="8" fill="#8C8298"/>
+  <circle cx="548" cy="272" r="8" fill="#8C8298"/>
+</svg>

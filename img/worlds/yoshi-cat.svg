@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 300" width="240" height="300">
+  <title>Кот Йоши</title>
+  <defs>
+    <linearGradient id="fur" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFB36B"/>
+      <stop offset="1" stop-color="#F08A3C"/>
+    </linearGradient>
+  </defs>
+  <ellipse cx="120" cy="286" rx="70" ry="10" fill="#2B2233" opacity=".14"/>
+  <!-- Хвост -->
+  <path d="M168 270 C214 262 226 214 196 186" fill="none" stroke="#2B2233" stroke-width="22" stroke-linecap="round"/>
+  <path d="M168 270 C214 262 226 214 196 186" fill="none" stroke="url(#fur)" stroke-width="12" stroke-linecap="round"/>
+  <!-- Тело -->
+  <path d="M68 280 C56 220 72 160 120 156 C168 160 184 220 172 280 Z" fill="url(#fur)" stroke="#2B2233" stroke-width="5" stroke-linejoin="round"/>
+  <path d="M100 168 C108 200 132 200 140 168 C136 214 128 240 120 250 C112 240 104 214 100 168 Z" fill="#FFF6EE" stroke="#2B2233" stroke-width="3.5" stroke-linejoin="round"/>
+  <path d="M96 280 V256 M144 280 V256" stroke="#2B2233" stroke-width="4" stroke-linecap="round"/>
+  <!-- Уши -->
+  <path d="M58 92 L54 22 L104 58 Z" fill="url(#fur)" stroke="#2B2233" stroke-width="5" stroke-linejoin="round"/>
+  <path d="M182 92 L186 22 L136 58 Z" fill="url(#fur)" stroke="#2B2233" stroke-width="5" stroke-linejoin="round"/>
+  <path d="M66 74 L64 40 L90 60 Z M174 74 L176 40 L150 60 Z" fill="#FF9EB0"/>
+  <!-- Голова -->
+  <ellipse cx="120" cy="104" rx="72" ry="62" fill="url(#fur)" stroke="#2B2233" stroke-width="5"/>
+  <path d="M104 50 L108 70 M120 46 V68 M136 50 L132 70" stroke="#C8621E" stroke-width="5" stroke-linecap="round"/>
+  <!-- Глаза -->
+  <circle cx="92" cy="106" r="14" fill="#2B2233"/>
+  <circle cx="148" cy="106" r="14" fill="#2B2233"/>
+  <circle cx="97" cy="100" r="5" fill="#FFFFFF"/>
+  <circle cx="153" cy="100" r="5" fill="#FFFFFF"/>
+  <ellipse cx="76" cy="132" rx="14" ry="8" fill="#FF7E9A" opacity=".45"/>
+  <ellipse cx="164" cy="132" rx="14" ry="8" fill="#FF7E9A" opacity=".45"/>
+  <!-- Нос и рот -->
+  <path d="M114 124 h12 l-6 7 z" fill="#FF7E9A" stroke="#2B2233" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M120 131 q-6 9 -14 5 M120 131 q6 9 14 5" fill="none" stroke="#2B2233" stroke-width="3.5" stroke-linecap="round"/>
+  <path d="M48 116 h-24 M50 128 h-22 M192 116 h24 M190 128 h22" stroke="#2B2233" stroke-width="3" stroke-linecap="round"/>
+</svg>

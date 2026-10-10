@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100"><title>Клубок Ланы</title>
+<path d="M78 70 C90 78 92 88 84 94" fill="none" stroke="#2B2233" stroke-width="4" stroke-linecap="round"/>
+<circle cx="48" cy="50" r="34" fill="#B48CF0" stroke="#2B2233" stroke-width="4.5"/>
+<g fill="none" stroke="#FFFFFF" stroke-width="3.5" stroke-linecap="round" opacity=".8">
+<path d="M22 38 C38 30 60 30 76 40"/><path d="M18 54 C36 44 62 46 80 58"/><path d="M28 74 C42 62 60 62 72 74"/><path d="M40 18 C30 36 30 62 40 82"/></g>
+</svg>

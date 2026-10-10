@@ -1,0 +1,114 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 720" width="400" height="720">
+  <title>Лана</title>
+  <defs>
+    <!-- Волосы: сиреневые сверху, малиновые к концам -->
+    <linearGradient id="hair" gradientUnits="userSpaceOnUse" x1="0" y1="70" x2="0" y2="560">
+      <stop offset="0" stop-color="#C3A0F7"/>
+      <stop offset=".4" stop-color="#B48CF0"/>
+      <stop offset=".52" stop-color="#C04C9E"/>
+      <stop offset="1" stop-color="#8C2A72"/>
+    </linearGradient>
+    <linearGradient id="hairShade" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#000" stop-opacity=".16"/>
+      <stop offset=".35" stop-color="#000" stop-opacity="0"/>
+      <stop offset=".7" stop-color="#fff" stop-opacity=".12"/>
+      <stop offset="1" stop-color="#000" stop-opacity=".14"/>
+    </linearGradient>
+    <linearGradient id="hoodie" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#D9C6F8"/>
+      <stop offset=".45" stop-color="#F3EBFF"/>
+      <stop offset="1" stop-color="#D3BEF5"/>
+    </linearGradient>
+    <radialGradient id="skin" cx=".42" cy=".38" r=".7">
+      <stop offset="0" stop-color="#FFF4EC"/>
+      <stop offset="1" stop-color="#FFDCC8"/>
+    </radialGradient>
+    <radialGradient id="blush" cx=".5" cy=".5" r=".5">
+      <stop offset="0" stop-color="#FF7E9A" stop-opacity=".75"/>
+      <stop offset="1" stop-color="#FF7E9A" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="iris" cx=".5" cy=".62" r=".6">
+      <stop offset="0" stop-color="#F2B36E"/>
+      <stop offset=".55" stop-color="#A9561F"/>
+      <stop offset="1" stop-color="#5C2A0E"/>
+    </radialGradient>
+    <radialGradient id="lens" cx=".35" cy=".3" r=".8">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#F1EAFF"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Тень на земле -->
+  <ellipse cx="200" cy="694" rx="96" ry="14" fill="#2B2233" opacity=".14"/>
+
+  <!-- Волосы сзади -->
+  <path d="M200 68 C116 68 68 130 68 214 C68 300 76 392 80 452 C82 492 88 524 100 548 C106 536 112 528 120 524 C122 544 130 560 144 566 C148 552 154 544 162 540 L238 540 C246 544 252 552 256 566 C270 560 278 544 280 524 C288 528 294 536 300 548 C312 524 318 492 320 452 C324 392 332 300 332 214 C332 130 284 68 200 68 Z"
+        fill="url(#hair)" stroke="#2B2233" stroke-width="5" stroke-linejoin="round"/>
+  <path d="M200 68 C116 68 68 130 68 214 C68 300 76 392 80 452 C82 492 88 524 100 548 C106 536 112 528 120 524 C122 544 130 560 144 566 C148 552 154 544 162 540 L238 540 C246 544 252 552 256 566 C270 560 278 544 280 524 C288 528 294 536 300 548 C312 524 318 492 320 452 C324 392 332 300 332 214 C332 130 284 68 200 68 Z"
+        fill="url(#hairShade)"/>
+
+  <!-- Кошачьи ушки -->
+  <g stroke="#2B2233" stroke-width="5" stroke-linejoin="round">
+    <path d="M100 150 C96 118 98 86 108 56 C132 70 154 86 170 104 Z" fill="#FFFFFF"/>
+    <path d="M300 150 C304 118 302 86 292 56 C268 70 246 86 230 104 Z" fill="#FFFFFF"/>
+  </g>
+  <g fill="#FFC6DA">
+    <path d="M114 124 C112 104 114 88 118 76 C132 86 144 96 152 106 Z"/>
+    <path d="M286 124 C288 104 286 88 282 76 C268 86 256 96 248 106 Z"/>
+  </g>
+
+  <!-- Ноги -->
+  <rect x="164" y="590" width="28" height="98" rx="12" fill="#F1ECF7" stroke="#2B2233" stroke-width="5"/>
+  <rect x="208" y="590" width="28" height="98" rx="12" fill="#F1ECF7" stroke="#2B2233" stroke-width="5"/>
+  <path d="M160 676 h36 a6 6 0 0 1 0 14 h-30 a8 8 0 0 1 -6 -14 z" fill="#8C2A72" stroke="#2B2233" stroke-width="4"/>
+  <path d="M204 676 h36 a6 6 0 0 1 0 14 h-30 a8 8 0 0 1 -6 -14 z" fill="#8C2A72" stroke="#2B2233" stroke-width="4"/>
+
+  <!-- Рукава -->
+  <rect x="112" y="340" width="32" height="222" rx="16" fill="#E2D3FB" stroke="#2B2233" stroke-width="5"/>
+  <rect x="256" y="340" width="32" height="222" rx="16" fill="#E2D3FB" stroke="#2B2233" stroke-width="5"/>
+  <path d="M116 538 h24 M260 538 h24" stroke="#2B2233" stroke-width="4" stroke-linecap="round"/>
+
+  <!-- Худи с карманом -->
+  <path d="M146 320 Q200 310 254 320 L256 590 Q256 618 228 618 L172 618 Q144 618 144 590 Z" fill="url(#hoodie)" stroke="#2B2233" stroke-width="5" stroke-linejoin="round"/>
+  <path d="M164 336 Q200 368 236 336" fill="none" stroke="#2B2233" stroke-width="4" stroke-linecap="round"/>
+  <path d="M184 352 v52 M216 352 v52" stroke="#2B2233" stroke-width="3.5" stroke-linecap="round"/>
+  <circle cx="184" cy="408" r="5" fill="#B48CF0" stroke="#2B2233" stroke-width="3"/>
+  <circle cx="216" cy="408" r="5" fill="#B48CF0" stroke="#2B2233" stroke-width="3"/>
+  <path d="M156 516 h88 q8 0 9 8 l3 40 q1 10 -9 10 h-94 q-10 0 -9 -10 l3 -40 q1 -8 9 -8 z" fill="#A77BE6" stroke="#2B2233" stroke-width="4.5" stroke-linejoin="round"/>
+  <path d="M166 530 q34 -6 68 0" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" fill="none" opacity=".45"/>
+
+  <!-- Голова -->
+  <circle cx="200" cy="212" r="112" fill="url(#skin)" stroke="#2B2233" stroke-width="5"/>
+
+  <!-- Чёлка -->
+  <path d="M88 212 C86 136 134 96 200 96 C266 96 314 136 312 212 C302 186 290 170 274 162 C270 176 262 186 250 192 C246 176 238 164 226 156 C220 170 210 180 196 184 C194 170 188 160 178 152 C166 166 150 172 132 172 C114 180 98 194 88 212 Z"
+        fill="url(#hair)" stroke="#2B2233" stroke-width="5" stroke-linejoin="round"/>
+  <path d="M130 130 C150 112 176 104 204 104" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" fill="none" opacity=".5"/>
+
+  <!-- Хохолок -->
+  <path d="M196 98 C186 76 194 56 214 50 C206 64 210 78 222 86 C214 94 204 98 196 98 Z" fill="#B48CF0" stroke="#2B2233" stroke-width="5" stroke-linejoin="round"/>
+
+  <!-- Румянец -->
+  <ellipse cx="124" cy="284" rx="26" ry="15" fill="url(#blush)"/>
+  <ellipse cx="276" cy="284" rx="26" ry="15" fill="url(#blush)"/>
+
+  <!-- Большие круглые глаза -->
+  <g>
+    <circle cx="147" cy="228" r="46" fill="url(#lens)"/>
+    <circle cx="253" cy="228" r="46" fill="url(#lens)"/>
+    <circle cx="150" cy="234" r="35" fill="url(#iris)" stroke="#2B2233" stroke-width="3"/>
+    <circle cx="250" cy="234" r="35" fill="url(#iris)" stroke="#2B2233" stroke-width="3"/>
+    <circle cx="150" cy="237" r="21" fill="#2E1408"/>
+    <circle cx="250" cy="237" r="21" fill="#2E1408"/>
+    <circle cx="162" cy="221" r="10" fill="#FFFFFF"/>
+    <circle cx="262" cy="221" r="10" fill="#FFFFFF"/>
+    <circle cx="139" cy="250" r="5" fill="#FFFFFF"/>
+    <circle cx="239" cy="250" r="5" fill="#FFFFFF"/>
+    <circle cx="147" cy="228" r="46" fill="none" stroke="#2B2233" stroke-width="7"/>
+    <circle cx="253" cy="228" r="46" fill="none" stroke="#2B2233" stroke-width="7"/>
+  </g>
+
+  <!-- Открытая улыбка -->
+  <path d="M174 284 Q202 290 230 278 Q224 310 198 312 Q178 310 174 284 Z" fill="#3A1420" stroke="#2B2233" stroke-width="3.5" stroke-linejoin="round"/>
+  <path d="M186 302 Q198 294 212 302 Q206 310 198 310 Q190 309 186 302 Z" fill="#FF8FA8"/>
+</svg>

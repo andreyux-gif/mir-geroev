@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 724 484" width="724" height="484">
+  <title>Мир Ульяны: там, где всегда радуга</title>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#A9DCFF"/>
+      <stop offset="1" stop-color="#E4F5FF"/>
+    </linearGradient>
+    <g id="cloud">
+      <path d="M-70 30 a26 26 0 0 1 10 -46 a34 34 0 0 1 60 -14 a28 28 0 0 1 48 16 a24 24 0 0 1 4 44 z" fill="#FFFFFF" stroke="#2B2233" stroke-width="5" stroke-linejoin="round"/>
+    </g>
+  </defs>
+
+  <rect width="724" height="484" fill="url(#sky)"/>
+
+  <!-- Радуга -->
+  <g fill="none" stroke-width="24">
+    <path d="M42 420 A320 320 0 0 1 682 420" stroke="#FF5A6E"/>
+    <path d="M66 420 A296 296 0 0 1 658 420" stroke="#FF9A3D"/>
+    <path d="M90 420 A272 272 0 0 1 634 420" stroke="#FFD84A"/>
+    <path d="M114 420 A248 248 0 0 1 610 420" stroke="#6FD36A"/>
+    <path d="M138 420 A224 224 0 0 1 586 420" stroke="#4FB4FF"/>
+    <path d="M162 420 A200 200 0 0 1 562 420" stroke="#B07CFF"/>
+  </g>
+  <g fill="none" stroke="#2B2233" stroke-width="5">
+    <path d="M30 420 A332 332 0 0 1 694 420"/>
+    <path d="M174 420 A188 188 0 0 1 550 420"/>
+  </g>
+  <path d="M120 250 A300 300 0 0 1 260 128" fill="none" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" opacity=".5"/>
+
+  <!-- Сонное «Zzz» на макушке радуги: тут Ульяна спит -->
+  <g fill="none" stroke="#2B2233" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M380 60 h18 l-18 20 h18"/>
+    <path d="M410 40 h14 l-14 16 h14"/>
+    <path d="M434 24 h10 l-10 12 h10"/>
+  </g>
+
+  <!-- Облака у концов радуги -->
+  <use href="#cloud" transform="translate(96 352)"/>
+  <use href="#cloud" transform="translate(640 352) scale(-1 1)"/>
+
+  <!-- Холмы -->
+  <path d="M0 400 Q170 352 362 392 Q560 432 724 380 L724 484 L0 484 Z" fill="#BDE3A3" stroke="#2B2233" stroke-width="5" stroke-linejoin="round"/>
+  <path d="M0 440 Q240 404 470 438 Q620 458 724 430 L724 484 L0 484 Z" fill="#A6D68A" stroke="#2B2233" stroke-width="5" stroke-linejoin="round"/>
+</svg>

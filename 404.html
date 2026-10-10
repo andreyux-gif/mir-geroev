@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Страница потерялась</title>
+<script>
+  // Любой неправильный адрес ведёт к Йоши: он «спрятал» страницу
+  (function () {
+    var parts = location.pathname.split('/');
+    var base = /\.github\.io$/.test(location.hostname) && parts[1] ? '/' + parts[1] + '/' : '/';
+    location.replace(base + '#/lost');
+  })();
+</script>
+</head>
+<body style="font-family:sans-serif;padding:24px;background:#FFFBF3">
+<p>Страница потерялась — это Йоши напакостил. <a href="./">Вернуться к героям</a></p>
+</body>
+</html>

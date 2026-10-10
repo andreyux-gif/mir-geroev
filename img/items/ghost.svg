@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100"><title>Призрачок</title>
+<defs><radialGradient id="g" cx=".4" cy=".3" r=".8"><stop offset="0" stop-color="#FFFFFF"/><stop offset="1" stop-color="#E9E2FF"/></radialGradient></defs>
+<path d="M18 86 V44 C18 22 32 10 50 10 C68 10 82 22 82 44 V86 L72 78 L61 88 L50 78 L39 88 L28 78 Z" fill="url(#g)" stroke="#2B2233" stroke-width="4.5" stroke-linejoin="round"/>
+<ellipse cx="30" cy="56" rx="7" ry="4.5" fill="#FF8FB8" opacity=".7"/><ellipse cx="70" cy="56" rx="7" ry="4.5" fill="#FF8FB8" opacity=".7"/>
+<circle cx="38" cy="42" r="11" fill="#fff" stroke="#2B2233" stroke-width="4"/><circle cx="62" cy="42" r="11" fill="#fff" stroke="#2B2233" stroke-width="4"/>
+<circle cx="39" cy="44" r="6.5" fill="#7A4DD8"/><circle cx="61" cy="44" r="6.5" fill="#7A4DD8"/>
+<circle cx="41.5" cy="41" r="2.4" fill="#fff"/><circle cx="63.5" cy="41" r="2.4" fill="#fff"/>
+<path d="M44 60 q6 5 12 0" fill="none" stroke="#2B2233" stroke-width="3.5" stroke-linecap="round"/>
+</svg>
